@@ -1,0 +1,10 @@
+print(31 + 15)
+print(1.65 + 8 + 32.8)
+print(True)
+print(False)
+print('Python')
+
+int()
+float()
+str()
+bool()
