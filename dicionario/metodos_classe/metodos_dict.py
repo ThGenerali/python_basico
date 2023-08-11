@@ -103,3 +103,16 @@ print('''
 del copia['nome']
 del copia['idade']
 print(copia)
+
+#dict comprehension
+print('''
+      dict comprehension
+''')
+print('Escrita da dict comprehension sem condicional: {chave:valor for item in sequencia} \n Escrita com condicional: {chave:valor for item in sequencia if condicao}')
+
+dict_todos = {f'item {item}': item for item in range(1,11)}
+
+dict_impar = {f'item {item}': item for item in range(1,11) if item % 2 != 0}
+
+print(f'dict comprehension sem condição: {dict_todos} \n dict com condição {dict_impar}') 
+

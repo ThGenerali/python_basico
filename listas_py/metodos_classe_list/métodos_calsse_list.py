@@ -126,3 +126,16 @@ print("""
 print(lista)
 print(f"Organizando pelo tamanho: {sorted(lista, key = lambda x: len(x))}")
 print(f"Organizando pelo tamanho, mas espelhada (utilizando o reverse): {sorted(lista, key = lambda x: len(x), reverse = True)} ")
+
+#list comprenhesion
+print("""
+      list comprehension
+""")
+print("sintaxe list comprehension: [expreção(item) for item in sequencia if condição]")
+lista = ['a', 'b', 'c', 'd', 'e', 'f']
+print(lista)
+print(f'''Usando o list comprehension para modificar a lista acima e para criar a lista numeros:
+      lista: {[c.upper() for c in lista]} 
+      numeros: {[n * 10 for n in range(1, 11)]}''')
+print(f'''Usando condição no list comprehension:
+      multiplicação dos números impares: {[n * 10 for n in range(1, 11) if n % 2 != 0]}''')
