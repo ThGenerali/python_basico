@@ -94,3 +94,5 @@ def salario_bonus(bonus):
     return salario
 
 print(salario_bonus(500))
+
+#Funções anônimas: Funções Lambda
