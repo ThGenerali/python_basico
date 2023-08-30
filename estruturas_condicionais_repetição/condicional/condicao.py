@@ -52,3 +52,10 @@ saque = float(input("digite um número"))
 SALDO = 750
 status = "Falha" if saque <= saldo else "falha"
 print(f"{status} ao efetuar o saque")
+
+#Atribuição condicional em um linha
+#sintaxe: valor se verdaeiro if condicao else valor se falso
+idade = int(input("Qual sua idade? \n"))
+verificacao = 'você é de maior' if idade >= 18 else 'você é de menor'
+print(f'''Idade: {idade}
+      verificacao: {verificacao}''')

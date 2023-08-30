@@ -96,3 +96,14 @@ def salario_bonus(bonus):
 print(salario_bonus(500))
 
 #Funções anônimas: Funções Lambda
+#Usada mais por um curto período
+#Sintaxe: lambda arguments: <expression>
+area_quadrado = lambda lado: lado**2
+
+print(area_quadrado(4))
+
+#função map()
+#permite percorrermos uma lista, realizando a expressão em cada item
+triplo = lambda x: x*3
+lista =[4, 5, 6, 7]
+print(list(map(triplo, lista)))
